@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
 
         var btn = findViewById<Button>(R.id.show_notification)
         btn.setOnClickListener {
-            SmartNotification.set(this, 1000 * 3, CHANNEL_ID, CHANNEL_NAME)
+            SmartNotification.set(this, 1000 * 3)
         }
     }
 
